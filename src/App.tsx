@@ -1,26 +1,43 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Home/Header";
+import Home from "./components/Home/Home";
+import "./app.css"
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header></Header>
+      <Home></Home>
     </div>
   );
 }
 
 export default App;
+
+// const initialCount: number = 0;
+// function reducer(state: number, action: string) {
+//   switch (action) {
+//     case 'increment':
+//       return state + 1;
+//     case 'decrement':
+//       return state - 1;
+//     case 'reset':
+//       return 0;
+//     default:
+//       return state;
+//   }
+
+// }
+
+// function App() {
+//   const [count, dispatch] = useReducer(reducer, initialCount);
+//   return (
+//     <div>
+//       <h1>{count}</h1>
+//       <button onClick={() => dispatch("increment")}>Increment </button>
+//       <button onClick={() => dispatch("decrement")}>decrement</button>
+//       <button onClick={() => dispatch("reset")}>Reset</button>
+//     </div>
+//   )
+// }
+

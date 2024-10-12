@@ -1,0 +1,42 @@
+section {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    padding: 30px;
+    border-radius: 30px;
+    /* border: 1px black solid; */
+}
+
+.description {
+    padding: 30px;
+    border-radius: 30px;
+    width: 500px;
+    /* border: 1px black solid; */
+}
+
+.dragdrop {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 100px 200px;
+    margin-bottom: 200px;
+}
+
+.error {
+    background-color: red;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+/* --------------------- header ------------------- */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}

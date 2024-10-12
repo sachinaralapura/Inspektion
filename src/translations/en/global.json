@@ -1,0 +1,10 @@
+{
+    "home": {
+        "heading": "Find the coordinates of an image",
+        "description": "Tool to find the coordinates of the image uploaded , coordinates are copied when clicked",
+        "dragdrop": "Drag Drop"
+    },
+    "header": {
+        "title": "Coords"
+    }
+}

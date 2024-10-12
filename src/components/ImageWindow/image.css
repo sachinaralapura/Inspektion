@@ -1,0 +1,91 @@
+.imagewindow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* -------------------------------- toolbar ---------------------------- */
+button {
+    height: 45px;
+}
+
+.Viewer-toolbar-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: yellowgreen;
+}
+
+
+.Viewer-toolbar-container,
+.Viewer-toolbar,
+.Viewer-button-group,
+.Viewer-ImageControlGroup {
+    display: flex;
+}
+
+.Viewer-toolbar-container {
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+    height: 50px;
+}
+
+
+.Viewer-toolbar {
+    flex-grow: 1;
+}
+
+.viewer-cancel {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.viewer-cancel>button {
+    background-color: black;
+    color: white;
+    padding: 5px 25px;
+    height: 50px;
+    border: none;
+    border-bottom-left-radius: 22px;
+}
+
+.Viewer-toolbar {
+    background-color: white;
+}
+
+.Viewer-button-group,
+.Viewer-button-group>button,
+.Viewer-ImageControlGroup,
+.Viewer-ImageControlGroup>button {
+    flex-grow: 1;
+    border: none;
+}
+
+.Viewer-ImageControlGroup>h3 {
+    flex-grow: 2;
+    border: none;
+}
+
+/* ----------------------- Sidebar --------------------- */
+.sidebar {
+    position: absolute;
+    background-color: brown;
+    top: 50px;
+    left: 0;
+    width: 300px;
+}
+
+/* ------------------ canvas --------------------- */
+.imagearea {
+    position: absolute;
+    left: 300px;
+    top: 50px;
+    bottom: 0px;
+    background-color: white;
+    overflow: hidden;
+}
